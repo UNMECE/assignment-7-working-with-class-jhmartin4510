@@ -9,16 +9,16 @@ class Electric_field
 	private:
 		double *E;
 	public:
-//function
+//constructor
 	
 	Electric_field()
 	{
-		E = new double[3];
+		E = new double[3];					//allocaiting memory for 3 coordinates
 		std::cout<<"default constructor called" <<std::endl;
 	}
 	Electric_field(double x, double y, double z)
 	{
-		E = new double[3];
+		E = new double[3];					//allocating memory for 3 coordinates
 		*(E+0) = x;
 		*(E+1) = y;
 		*(E+2) = z;

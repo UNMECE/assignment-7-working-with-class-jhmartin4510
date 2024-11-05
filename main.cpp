@@ -9,6 +9,9 @@ Electric_field E1;
 
 //Parameter Constructer
 Electric_field E2(3,4,6);
+//Example from readme file
+Electric_field E_components(1e5,10.9,1.7e2);
+
 
 //Using the getter functions of Electric Field Constructer
 std::cout<<"Printing values of E2" <<std::endl;
